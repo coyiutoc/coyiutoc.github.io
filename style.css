@@ -1,0 +1,174 @@
+body{
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: black;
+  /*background-image: url('img/grocery.jpg');*/
+}
+
+/*duplicating body dimensions?*/
+body::after {
+  content: "";
+  background: url('img/grocery.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.center{
+  /*font-size: 80px;*/
+  background: rgba(152, 230, 152, 0.6);
+  /*color: black;*/
+  width: 500px;
+  /*border: 15px solid white;*/
+  padding: 0.2px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+}
+
+h1{
+  font-size: 80px;
+  color:black;
+}
+
+h2{
+  font-size: 20px;
+  color: black;
+}
+
+.btn{
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  display:block; /* change this from inline-block */
+  width:250px; /* setting the width */
+  margin:0 auto; /* this will center  it */
+  margin-top: 30px;
+  position:relative;
+  border: 10px, solid white;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  border: none;
+}
+.btn:hover{
+  background: rgba(152, 230, 200, 1);
+  color: black;
+}
+
+/*remove blue border at button click*/
+.btn:focus {outline:0;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    max-height: calc(100% - 100px);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Full width */
+    height: 400px; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-radius: 25px;
+}
+
+/* Modal Content */
+.modal-content {
+    text-align: center;
+    background-color: #fefefe;
+    color: rgb(20, 82, 20);
+    margin: auto;
+    /*padding: 20px;*/
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+}
+
+.modalTitle{
+  font-size: 30px;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  width: 350px;
+  /*border: 15px solid white;*/
+  padding: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+}
+
+.modalHeader{
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 300px;
+  /*border: 15px solid white;*/
+  padding: 0px;
+  margin: auto;
+  margin-top: 0px;
+  text-align: center;
+  position: relative;
+  /*border-radius: 25px;*/
+}
+
+.dishName{
+  font-size:15px;
+  width: 300px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  /*border-radius: 25px;*/
+  border: 0px;
+}
+
+.dishName:focus {outline:0;}
+
+.submit{
+  font-size: 30px;
+  background: rgba(0, 128, 64, 0.6);
+  color: white;
+  width: 350px;
+  height: 40px;
+  /*border: 15px solid white;*/
+  padding: 0px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+}
+.submit:hover{
+  background: rgb(0, 51, 26);
+}
+.submit:focus {outline:0;}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: #ff5050;
+    text-decoration: none;
+    cursor: pointer;
+}
