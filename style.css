@@ -183,10 +183,21 @@ h4{
 
 h5{
   font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.8);
   text-align:left;
+  border-radius: 25px;
 }
+
+h6{
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  text-align:left;
+
+}
+
 
 .btn{
   font-size: 30px;
