@@ -15,6 +15,86 @@ border: 5px solid white;
 border-radius: 10px;
 }
 
+img:hover{
+  opacity: 0.5;
+  border: 5px solid black;
+}
+
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  /*vertical-align: top;*/
+}
+
+.navbar
+.navbar-inner {
+  text-align:center;
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#homelink:hover {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  color: black !important;
+}
+
+#homelink:focus {
+    background-color: transparent;
+    color:white;
+}
+
+#cslink:hover {
+  background-color: rgba(102, 102, 204, 0.7) !important;
+  color: black !important;
+}
+
+#cslink:focus {
+    background-color: transparent;
+    color:white;
+}
+
+#neurolink:hover {
+  background-color: rgba(255, 0, 102, 0.7) !important;
+  color: black !important;
+}
+
+#neurolink:focus {
+    background-color: transparent;
+    color:white;
+}
+
+#aboutlink:hover {
+  background-color: rgba(255, 204, 0, 0.7) !important;
+  color: black !important;
+}
+
+#aboutlink:focus {
+    background-color: transparent;
+    color:white;
+}
+
+#resumelink:hover {
+  background-color: rgba(0, 255, 153, 0.7) !important;
+  color: black !important;
+}
+
+#resumelink:focus {
+    background-color: transparent;
+    color:white;
+}
+
+a{
+  color: white;
+}
+
 .row {
   display: flex; /* equal height of the children */
   /*margin-bottom: 10px;*/
@@ -23,6 +103,7 @@ border-radius: 10px;
 .container {
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 .image {
@@ -78,6 +159,15 @@ border-radius: 10px;
  width:100%;
  border-top:2px solid white;
 }
+
+.h-divider3{
+ margin-top:5px;
+ margin-bottom:5px;
+ height:10px;
+ width:100%;
+ border-top:2px solid white;
+}
+
 
 
 button {
@@ -155,7 +245,7 @@ padding-bottom: 2px;
 }
 
 .block1{
-  background: rgba(0, 102, 255, 0.6);
+  background: rgba(83, 83, 198, 0.4);
   width:100%;
   height:100%;
   margin-top: 50px;
@@ -163,16 +253,16 @@ padding-bottom: 2px;
   padding-top: 10px;
   padding-bottom: 50px;
   padding-top: 5px;
-  border-top: 10px solid black;
-  border-bottom: 10px solid black;
+  /*border-top: 10px solid black;*/
+  /*border-bottom: 10px solid black;*/
 }
 
 .icon-laptop:hover{
-  color:rgba(0, 102, 255, 1);
+  color:rgba(102, 102, 204, 1);
 }
 
 .block2{
-  background: rgba(255, 0, 102, 0.6);
+  background: rgba(255, 0, 102, 0.4);
   width:100%;
   height:100%;
   margin-top: 50px;
@@ -180,8 +270,8 @@ padding-bottom: 2px;
   padding-top: 10px;
   padding-bottom: 50px;
   padding-top: 5px;
-  border-top: 10px solid black;
-  border-bottom: 10px solid black;
+  /*border-top: 10px solid black;
+  border-bottom: 10px solid black;*/
 }
 
 .icon-brain:hover{
@@ -197,14 +287,30 @@ padding-bottom: 2px;
   padding-top: 10px;
   padding-bottom: 50px;
   padding-top: 5px;
-  border-top: 10px solid black;
-  border-bottom: 10px solid black;
+  /*border-top: 10px solid black;
+  border-bottom: 10px solid black;*/
 }
 
 .icon-list-alt:hover{
   color: rgba(0, 255, 153, 1);
 }
 
+.block4{
+  background: rgba(255, 204, 0, 0.4);
+  width:100%;
+  height:100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-top: 5px;
+  /*border-top: 10px solid black;
+  border-bottom: 10px solid black;*/
+}
+
+.icon-smile:hover{
+  color: rgba(255, 204, 0, 1);
+}
 
 .timelineBlock{
   width:100%;
@@ -217,6 +323,27 @@ padding-bottom: 2px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
+.timelineBlock2{
+  width:auto;
+  height:auto;
+  padding: 30px;
+  padding-bottom: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  margin: auto;
+}
+
+.timelineBlock3{
+  width:100%;
+  height:auto;
+  padding: 30px;
+  padding-bottom: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  margin: auto;
+}
+
 .intro{
   background: rgba(255, 255, 255, 0.5);
   /*color: black;*/
