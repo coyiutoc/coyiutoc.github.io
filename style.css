@@ -21,7 +21,7 @@ img:hover{
 }
 
 .label-default {
-  background-color: transparent;
+  background-color: rgba(255,255,255,0.2);
   border: 1px solid white;
   padding-left: 5px;
   padding-right: 5px;
@@ -50,7 +50,8 @@ img:hover{
 #homelink:hover {
   background-color: rgba(255, 255, 255, 0.7) !important;
   color: black !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
 }
 
 #homelink:focus {
@@ -61,7 +62,8 @@ img:hover{
 #cslink:hover {
   background-color: rgba(102, 102, 204, 0.7) !important;
   color: black !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
 }
 
 #cslink:focus {
@@ -72,7 +74,8 @@ img:hover{
 #neurolink:hover {
   background-color: rgba(255, 0, 102, 0.7) !important;
   color: black !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
 }
 
 #neurolink:focus {
@@ -83,7 +86,8 @@ img:hover{
 #aboutlink:hover {
   background-color: rgba(255, 204, 0, 0.7) !important;
   color: black !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
 }
 
 #aboutlink:focus {
@@ -94,7 +98,8 @@ img:hover{
 #resumelink:hover {
   background-color: rgba(0, 255, 153, 0.7) !important;
   color: black !important;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  text-shadow: -1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff,0 -1px #ffffff;
 }
 
 #resumelink:focus {
@@ -360,8 +365,8 @@ padding-bottom: 2px;
   /*color: black;*/
   /*width: 700px;*/
   /*border: 15px solid white;*/
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 40px;
   padding-bottom: 60px;
   margin: auto;
