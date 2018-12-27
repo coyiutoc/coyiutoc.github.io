@@ -1,4 +1,3 @@
-
 .centered {
     position: absolute;
     top: 50%;
@@ -16,10 +15,6 @@ a: hover {
     text-decoration: none !important;
     transition: 0.3s;
 }
-
-/*b {
-    color: #00bcb5;
-}*/
 
 body {
     font-family: "Karla", serif;
@@ -119,6 +114,59 @@ ul {
     /*padding-right: 10%;*/
 }
 
+/********* Carousel *********/
+
+.carousel-item img {
+      margin: auto;
+      display: block;
+      width: auto;
+      height: 70vh;
+      max-height: 70vh;
+      border: 1px solid #808080;
+      border-radius: 10px;
+  }
+
+.carousel-item img:hover {
+  border: 5px solid #4cb3a9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #4cb3a9;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
 /********* Containers *********/
 
 h2.no-span {
@@ -144,6 +192,13 @@ h2.no-span:before {
     top: 0.5em;
     width: 45%;
     right: 1.5%;
+}
+
+.block {
+  padding-left: 15%;
+  padding-top: 10%;
+  padding-right: 15%;
+  justify-content: center;
 }
 
 .content-block {
