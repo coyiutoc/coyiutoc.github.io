@@ -23,41 +23,33 @@
 	<!-- Local stylesheets -->
 	<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
 
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="scripts.js"></script>
 </head>
 
 <body>
 
-<!-- 	<div id = "nav">
-		<ul>
-			<div class = "li-container">
-			  	<li style = "float: left"><a style = "font-size: 50px" href="#contact">caitlin coyiuto</a>
-			</div>
-		</ul>
-	</div> -->
 	<div id = "nav-bottom">
 		<ul>
-		  	<div class = "li-container">
-		  		<li style = "float: left"><a href="index.html">PROJECTS</a></li>
+			<div class = "li-container">
+		  		<li style = "float: left"><a class = "scroll-button" href="index.html"><h3>caitlin coyiuto</h3></a></li>
 		  	</div>
 		  	<div class = "li-container">
-		  		<li style = "float: left"><a href="music.html">MUSIC</a></li>
-		  	</div>
-		  	<div class = "li-container">
-		  		<li style = "float: left"><a href="about.html">ABOUT</a></li>
-		  	</div>
-		  	<div class = "li-container">
-		  		<li style = "float: right"><a href="https://github.com/coyiutoc">GITHUB</a></li>
-		  	</div>
-		  	<div class = "li-container">
-		  		<li style = "float: right"><a href="https://www.linkedin.com/in/coyiutoc">LINKEDIN</a></li>
+		  		<li style = "float: right"><a href="about.html">ABOUT</a></li>
 		  	</div>
 		  	<div class = "li-container">
 		  		<li style = "float: right"><a href="papers/resume.pdf" target="_blank">RESUME</a></li>
 		  	</div>
+		  	<div class = "li-container">
+		  		<li style = "float: right"><a href="music.html">MUSIC</a></li>
+		  	</div>
+		  	<div class = "li-container">
+		  		<li style = "float: right"><a class = "scroll-button" href="index.html#projects-top">PROJECTS</a></li>
+		  	</div>
 		</ul>
 	</div>
 	
-	<div id = "anchor-top" class = "content-block">
+	<div id = "anchor-top" class = "content-block-less-padding">
 		<div class = "container">
 			<div class = "row">
 				<div class="col-xs-12 col-md-12">
@@ -183,5 +175,7 @@
 		</div>	
 	</div> 
 </body>
+
+<script>document.body.className += ' fade-out';</script>
 
 </html>

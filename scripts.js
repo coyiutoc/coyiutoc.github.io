@@ -17,9 +17,9 @@ $(document).ready(function () {
           'slow');
   	});
 
-  	$("#back-to-top").click(function() {
+  	$(".footer-nav-link").click(function() {
       $('html,body').animate({
-          scrollTop: $("#nav-bottom").offset().top},
+          scrollTop: 0},
           'slow');
   	});
 
