@@ -111,17 +111,19 @@ ul {
 /********* Carousel *********/
 
 .carousel-item img {
-      margin: auto;
-      display: block;
-      width: auto;
-      height: 70vh;
-      max-height: 70vh;
-      border: 1px solid #808080;
-      border-radius: 10px;
+  margin: auto;
+  display: block;
+  width: auto;
+  height: 70vh;
+  max-height: 70vh;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  transition: 0.3s;
   }
 
 .carousel-item img:hover {
   border: 5px solid #4cb3a9;
+  transition: 0.3s;
 }
 
 .carousel-control-prev-icon,
