@@ -141,7 +141,7 @@
 							<font color = "#3ea8ac"><h3><b>Literature Review & <br>Information Gathering</b></h3></font>
 						</div>
 						<div class="col-xs-8 col-md-8">
-							Performed a literature review on potential web frameworks used in other vision science labs. <br><br> Interviewed other members of the lab about their experiences with the current codebase, and how they were implementing new experiments. Many researchers were "hacking" the code to fit their needs, making the codebase buggy.
+							Performed a literature review on potential web frameworks used in other vision science labs. Potential tools considered included JsPsych, D3.js, PsychoPy, E-Prime, MATLAB. <br><br> Interviewed other members of the lab about their experiences with the current codebase, and how they were implementing new experiments. Many researchers were "hacking" the code to fit their needs, making the codebase buggy.
 						</div>
 					</div>
 					<br>
@@ -166,7 +166,7 @@
 							<font color = "#3ea8ac"><h3><b>Proof of Concept Experiments</b></h3></font>
 						</div>
 						<div class="col-xs-8 col-md-8">
-							Narrowed potential frameworks to JsPsych and D3.js, with Node.js for backend. Implemented POCs to assess feasibility of migrating two of their foundational experiments, JND (Just
+							Narrowed potential frameworks to JsPsych for experimental control flow and D3.js for visualization, with Node.js for backend. Implemented POCs to assess feasibility of migrating two of their foundational experiments, JND (Just
 							Noticeable Difference) and Stevens.
 						</div>
 					</div>
@@ -192,7 +192,7 @@
 							<font color = "#3ea8ac"><h3><b>Piloting</b></h3></font>
 						</div>
 						<div class="col-xs-8 col-md-8">
-							POCs were piloted by researchers in the lab.
+							POCs were piloted by researchers in the lab to ensure that behavior and output was expected, and equivalent to that produced by the current Java framework.
 							<br>
 							Any unexpected visual and data output was identified.
 							<br>
@@ -209,7 +209,7 @@
 							<font color = "#3ea8ac"><h3><b>Literature Review & <br> Specification Planning</b></h3></font>
 						</div>
 						<div class="col-xs-8 col-md-8">
-							Performed literature review on end-user programming methods and software development for scientific software. 
+							Performed literature review on end-user programming methods and software development for scientific software. Considering viability of HCI-centric approach.  
 							<br> <br>
 							Drafted specifications for the codebase migration. Analyzed structure of different forms of visual experiments in the original codebase, and validated understanding of the experimental methodology by interviewing researchers. 
 						</div>
@@ -221,7 +221,6 @@
 						<div class="col-xs-12 col-md-12">
 						<center>
 							<span>
-<!-- 								<img style="width: 33vw; padding: 20px; border-radius: 10px; border: 1px solid #d2dedf" src = "imgs/tree.jpg"></img> -->
 								<img style="width: 50vw; padding: 20px; border-radius: 10px; border: 1px solid #d2dedf" src = "imgs/flow_diagram.jpg"></img>
 								</span>
 							</center>
@@ -238,8 +237,12 @@
 						</div>
 						<div class="col-xs-8 col-md-8">
 							Before commencing formal development of the new codebase with members of the team, there was a need to validate whether additional development effort is needed to make the JsPsych framework more accessible for non-computer science majors. 
-							<br><br>
-							Usability of the JsPsych framework was assessed through an informal exploratory study. In pairs, members of the research team implemented new visual experiments solely using Javascript, JsPsych and HTML/CSS, and were therefore separate from the Node application. Feedback suggests that JsPsych is easy to use, but becomes difficult when generating visual stimuli dynamically. This strengthened the need to use D3.js to support the data visualization component.
+							<br>
+							<br>
+							Usability of the JsPsych framework was assessed through an informal exploratory study. In pairs, members of the research team implemented new visual experiments (visual search and numerosity) solely using Javascript, JsPsych and HTML/CSS, and were therefore separate from the Node application. We wanted to isolate JsPsych as much as possibile to assess its usability from an end-user programmer perspective.
+							<br>
+							<br>
+							Feedback suggests that JsPsych is easy to use, and greatly facilitates setting up the experimental structure. What was difficult is that JsPsych does not provide any stimuli-generation functionality, so without using D3.js, visualization had to be dealt using using custom HTML/CSS and additional helper scripts. This therefore strengthened the need to use D3.js to support the data visualization component.
 							<br>
 							<br>
 							<a href="https://github.com/Wongelawit/Correlation_MultipleEnsemble/tree/Numerosity-Task">
@@ -257,6 +260,37 @@
 						<center>
 							<span>
 								<img style="border-radius: 10px; border: 1px solid #d2dedf" src = "gifs/visual_search.gif"></img>
+								</span>
+							</center>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div class = "row">
+						<div style = "border-right: 3px solid #d2dedf;" class="col-xs-4 col-md-4">
+							December 2018
+							<br>
+							<font color = "#3ea8ac"><h3><b>Running Numerosity & Visual Search</b></h3></font>
+						</div>
+						<div class="col-xs-8 col-md-8">
+							These two experiments (which were developed as part of the exploratory study) were piloted to ensure correct behavior and data output.
+							<br>
+							<br>
+							I designed the UI to facilitate easy testing and customizability, especially for trial number, as we needed to estimate how many sub-conditions could be run given 1 hour of a participant's time. 
+							<br>
+							<br>
+							After piloting, these tasks were run on actual participants, and the data collected were used in a VSS abstract submission.
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div class = "row">
+						<div class="col-xs-12 col-md-12">
+						<center>
+							<span>
+								<img style="border-radius: 10px; border: 1px solid #d2dedf" src = "imgs/multiple_ensembles_UI.png"></img>
 								</span>
 							</center>
 						</div>
