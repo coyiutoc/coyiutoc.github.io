@@ -249,6 +249,15 @@ h2.no-span:before {
     justify-content: center;
 }
 
+.vr-block {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  background:linear-gradient(90deg,rgba(75, 177, 166, 0.2),rgba(75, 177, 166, 0.2)),url(../imgs/async-vr.png);
+  background-size:cover;
+  background-position: center;
+}
+
 .save-on-block {
   width: 450px;
   height: 300px;
