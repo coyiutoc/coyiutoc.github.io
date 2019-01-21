@@ -258,15 +258,6 @@ h2.no-span:before {
   background-position: center;
 }
 
-.save-on-block {
-  width: 450px;
-  height: 300px;
-  border-radius: 10px;
-  background:linear-gradient(90deg,rgba(75, 177, 166, 0.2),rgba(75, 177, 166, 0.2)),url(../imgs/saveon_medfi.png);
-  background-size:cover;
-  background-position: center;
-}
-
 .vcl-block {
   width: 450px;
   height: 300px;
@@ -274,6 +265,15 @@ h2.no-span:before {
   background:linear-gradient(90deg,rgba(75, 177, 166, 0.2),rgba(75, 177, 166, 0.2)),url(../imgs/vcl_code_no_bg.png);
   background-size:cover;
   /*background-position: center;*/
+}
+
+.save-on-block {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  background:linear-gradient(90deg,rgba(75, 177, 166, 0.2),rgba(75, 177, 166, 0.2)),url(../imgs/saveon_medfi.png);
+  background-size:cover;
+  background-position: center;
 }
 
 .surfcal-block {
