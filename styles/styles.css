@@ -249,6 +249,13 @@ h2.no-span:before {
     justify-content: center;
 }
 
+.project-image {
+  transition: transform .4s;
+}
+.project-image:hover {
+  transform: scale(1.08);
+}
+
 .vr-block {
   width: 450px;
   height: 300px;
