@@ -12,10 +12,10 @@
 
 	  gtag('config', 'UA-133314857-1');
 	</script>
-
+	
 	<link rel="icon" href="imgs/CC.jpg">
-
-	<title>About</title>
+	
+	<title>UBC Faculty Data Visualizations</title>
 
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -57,49 +57,68 @@
 		</ul>
 	</div>
 	
-	<div class = "content-block-less-padding">	
+	<div id = "anchor-top" class = "content-block-less-padding">
 		<div class = "container">
-			<div id = "about-top" class="row">
-			    <div class="col-xs-6 col-md-4">
-			    	<img style = "max-width: 100%; max-height: 100%; border-radius: 10px" src = "imgs/profile_2.jpg"></img>
-			    	<br>
-			    	<br>
-			    	<div style = "text-align: right; border-right: 3px solid #d2dedf;">
-			    	<a href="https://github.com/coyiutoc" target="_blank">
-						<div class = "footer-nav-link"> GITHUB &nbsp</div>
-					</a> 
-					<br>
-					<a href="https://www.linkedin.com/in/coyiutoc" target="_blank">
-						<div class = "footer-nav-link"> LINKEDIN &nbsp</div>
-					</a>
+			<div class = "row">
+				<div class="col-xs-12 col-md-12">
+<!-- 					<div style = "border-radius: 10px; height: 100px; background-color: #000000; overflow:hidden">
+						<img src = "imgs/vcl_strip_wide.jpg"></img>
+					</div> -->
+					<div class = "project-header-block">
+  						<img src="imgs/faculty-viz-header.png" alt="Norway" style="border-radius: 10px;width:100%;height:100%;object-fit:cover; opacity: ">
+  						<div class="centered"><h4> <center>UBC Faculty Data Visualizations</center></h4></div>
+  					</div>
 				</div>
-		        </div>
-		        <div class="col-xs-6 col-md-8">
-		        	<h2>about me</h2>
-		        	<div class = "divider-light"></div>
-
-		            	  In 2016, I graduated Cum Laude with a <b>Bachelor's Degree in Neuroscience</b> at
-			              Wellesley College, MA, USA. While there, I got the chance to dissect sheep brains,
-			              and enervated the large motor neurons of crayfish. I also worked as a 
-			              research assistant in the <i>Mechanisms of Affect and Dysregulation Lab</i>
-			              ("MADLab"  - pun intended), where I used EEG to identify a frontal asymmetry profile
-			              associated with irritability.
-			              <br>
-			              <br>
-			              Currently, I'm finishing my second <b>Bachelor's in Integrated Computer Science</b>
-			              at the University of British Columbia, which has now given me the ability to build 
-			              and create applications from ground zero. I am a 
-			              member of UBC's <i>Visual Cognition Lab</i>, where I help build new visualization experiments
-			              that test our ability to assess correlation, and I am assisting in redesigning their current experimental framework. I am also a part of the <i>Multimodal User Experience Lab</i> where I am involved in HCI research investigating asynchronous collaboration in virtual reality.
-			              <br>
-			              <br>
-			              My multidisciplinary background makes me naturally inquisitive of the interaction between
-			              human behavior and technology. How can our understanding of human cognition drive design?
-			              What new technological mediums can arise from this knowledge? These are only some of 
-			              the questions that I hope to get a chance to explore in the future.
-		        </div>
-
-			 </div>
+			</div>
+			<br>
+			<br>
+			<div class = "row">
+				<div class="col-xs-12 col-md-12">
+					<div class = "row">
+						<div class="col-xs-6 col-md-6">
+							<font color = "#722639"><b> WHEN: </b></font><br>
+							June 2019 - July 2019
+							<br>
+							<br>
+							<font color = "#722639"><b> WHAT: </b></font><br>
+							Personal Project
+							<br>
+							<br>
+							<font color = "#722639"><b> TOOLS: </b></font><br>	
+							<div class = "row">
+								<ul>
+								  <li>Javascript</li>
+								  <li>Python</li>
+								  <li>Node.js</li>
+								</ul>
+								</p>
+								<ul >
+								  <li>Bootstrap</li>
+								  <li>D3.js</li>
+								  <li>Heroku</li>
+								</ul>
+								</p>
+							</div>	
+						</div>
+						<div class="col-xs-6 col-md-6">
+							This was a personal project done over summer that stemmed from my and a few others' curiosity on gender differences for faculty renumeration at UBC. This also served as a good exercise for me to learn python!
+							<br>
+							<br>
+							I first extracted faculty data by parsing the UBC 2018 faculty report in python. Using this data, I then made a python web-crawler to make POST requests on the UBC faculty directory to extract information like department and position.
+							<br>
+							<br>
+							The final data was aggregated into a CSV file, with which I used D3.js to create visualizations based on gender, position and department. The project is deployed on Heroku.
+							<br>
+							<br>
+							<a href="https://ubc-faculty-viz.herokuapp.com/" div id = "gitlink">
+								<div class = "project-link">
+						        	>> Website <<
+						    	</div>
+						    </a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -107,7 +126,7 @@
 		<div class = "container">
 			
 			<div style = "text-align: center">
-					<a href="#top">
+					<a href="#">
 						<div class = "footer-nav-link">Back to Top</div>
 					</a>
 				</div>
@@ -125,14 +144,10 @@
 							<div class = "footer-nav-link">VCL Framework Development</div>
 						</a> 
 						<span>&#8226;</span>
-						<a href="faculty-viz.html#anchor-top">
-							<div class = "footer-nav-link">UBC Faculty Data Visualizations</div>
-						</a>
-						<br>
 						<a href="saveon.html#anchor-top">
 							<div class = "footer-nav-link">Save-On Foods</div>
 						</a>
-						<span>&#8226;</span>
+						<br>
 						<a href="surfcal.html#anchor-top">
 							<div class = "footer-nav-link">SURFCal</div>
 						</a>

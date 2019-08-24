@@ -256,6 +256,15 @@ h2.no-span:before {
   transform: scale(1.08);
 }
 
+.faculty-viz-block {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  background:linear-gradient(90deg,rgba(75, 177, 166, 0.2),rgba(75, 177, 166, 0.2)),url(../imgs/faculty-viz.png);
+  background-size:cover;
+  background-position: center;
+}
+
 .vr-block {
   width: 450px;
   height: 300px;
@@ -374,6 +383,10 @@ p.github-link a:hover {
     transition: 0.3s;
 }
 
+
+#faculty-viz-block {
+    background-color: #b6c399;
+}
 
 #eeg-block {
     background-color: #fda481;
