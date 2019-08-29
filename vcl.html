@@ -77,7 +77,7 @@
 					<div class = "row">
 						<div class="col-xs-6 col-md-6">
 							<font color = "#3ea8ac"><b> WHEN: </b></font><br>
-							May 2018 - Present
+							May 2018 - July 2019
 							<br>
 							<br>
 							<font color = "#3ea8ac"><b> WHAT: </b></font><br>
@@ -120,16 +120,38 @@
 							Special thanks to Prof. Ronald Rensink, Madison Elliott, and all the other VCL members!
 							<br>
 							<br>
-							<a href="https://github.com/coyiutoc/VCL_Correlation_POC">
-								<p class = "project-link">
-						        	>> Github <<
-						    	</p>
-						    </a>
-						    <a href="papers/Caitlin_Coyiuto_CPSC448_Paper.pdf" target = "_blank">
-								<p class = "project-link">
-						        	>> Paper (for Directed Studies) <<
-						    	</p>
-						    </a>
+							<div class = "row">
+								<div class="col-xs-6 col-md-6">
+									<a href="https://vcl-web-framework.herokuapp.com/">
+										<p class = "project-link">
+								        	>> Application <<
+								    	</p>
+								    </a>
+								</div>
+								<div class="col-xs-6 col-md-6">
+									 <a href="https://ubc-vcl.github.io/VCLWebFramework/manual/README.html">
+										<p class = "project-link">
+								        	>> Documentation <<
+								    	</p>
+								    </a>
+								</div>
+							</div>
+							<div class = "row">
+								<div class="col-xs-12 col-md-12">
+									<a href="https://github.com/coyiutoc/VCL_Correlation_POC">
+										<p class = "project-link">
+								        	>> Github <<
+								    	</p>
+								    </a>
+								</div>
+<!-- 								<div class="col-xs-6 col-md-6">
+									<a href="papers/Caitlin_Coyiuto_CPSC448_Paper.pdf" target = "_blank">
+										<p class = "project-link">
+								        	>> Directed Studies Paper <<
+								    	</p>
+								    </a>
+								</div> -->
+							</div>
 						</div>
 					</div>
 					<br>
@@ -327,23 +349,49 @@
 					<br>
 					<br>
 					<br>
+					<div class = "row">
+						<div style = "border-right: 3px solid #d2dedf;" class="col-xs-4 col-md-4">
+							January - March 2019
+							<br>
+							<font color = "#3ea8ac"><h3><b>Restructuring</b></h3></font>
+						</div>
+						<div class="col-xs-8 col-md-8">
+							At this point in time, the application was stable enough to perform some restructuring to the architecture. This refactoring involved: (a) modularizing components, such as graphing, balancing, and instructions of an experiment, and (b) creating a config system that allowed for proper documentation and input of any experimental and graphical properties.
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<div class = "row">
+						<div style = "border-right: 3px solid #d2dedf;" class="col-xs-4 col-md-4">
+							April 2019
+							<br>
+							<font color = "#3ea8ac"><h3><b>Dynamic Documentation</b></h3></font>
+						</div>
+						<div class="col-xs-8 col-md-8">
+							One of the greatest issues from the previous codebase was that over time, researchers and developers alike failed to update documentation. I implemented a system in which the documentation is <u>dynamic</u> - what this means is that in order to create a new experiment or condition, the individual must update configuration files along the way, which help the system create and render the experiment. However, these config files ALSO are used to extract necessary information for the documentation.
+							<br>
+							<br>
+							Essentially, this system allows users to update the docs WITHOUT having the need to actually touch the documentation code at all!
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
 					<div class = "divider-light"></div>
 					<br>
 					<br>
 					<div class = "row">
 						<div align="center"class="col-xs-12 col-md-12">
-							<font color = "#3ea8ac"><h3><b>Future Steps:</b></h3></font>
+							<font color = "#3ea8ac"><h3><b>Conclusions:</b></h3></font>
 							<br>
-							This project will continue into the January-May 2019 semester.
-							<br> <br> 
-							Development efforts will be prioritized to: <br>(a) Modularizing all plotting code so end-users will not need to deal with the underlying D3 code directly, and, <br>(b) Implementation of new base visual experiments, such as Equalizer and other Design conditions.
+							This project really opened my eyes to central issues faced by any research lab that relies on programming to implement experiments. Due to the evolving nature of research, it is difficult for researchers to produce concrete specifications, while some do not have sufficient programming experience to code their experiments from scratch.
 							<br>
 							<br>
-							We ideally plan to take an HCI-oriented approach by conducting usability studies on the framework, to which other lab members will implement new conditions using the new codebase - this will give great insight to whether we are progressing in the right direction.
+							I implemented this framework in the hopes that the researchers of VCL, whether new or experienced in programming, could easily implement new conditions and experiments. This project truly made me appreciate how programmers are "users", and that HCI methodology must certainly be utilized to improve the developer experiences.
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
