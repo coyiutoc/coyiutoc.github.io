@@ -162,6 +162,39 @@ ul {
   font-size: 55px;
   color: black;
 }
+/********* Insight Table *********/
+
+.insight-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.insight-table div{
+  padding: 10px;
+  margin: 2px;
+  width: 20vw;
+  background-color: #d6e6ff;
+  border-radius: 10px;
+  height: 450px;
+  font-size: 1rem;
+}
+
+.insight-table div b {
+  color: #5b7cb2
+}
+
+.insight-table h5 {
+  font-size: 1.3rem;
+}
+
+.prototype-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 
 /********* Containers *********/
 
@@ -254,6 +287,15 @@ h2.no-span:before {
 }
 .project-image:hover {
   transform: scale(1.08);
+}
+
+.art-block {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  background:linear-gradient(90deg,rgba(75, 177, 166, 0.2),rgba(75, 177, 166, 0.2)),url(../imgs/magnolias_header.jpg);
+  background-size:cover;
+  background-position: center;
 }
 
 .faculty-viz-block {
