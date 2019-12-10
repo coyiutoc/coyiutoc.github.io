@@ -172,13 +172,14 @@ ul {
 }
 
 .insight-table div{
-  padding: 10px;
+  padding: 20px;
   margin: 2px;
   width: 20vw;
   background-color: #d6e6ff;
   border-radius: 10px;
-  height: 450px;
   font-size: 1rem;
+  height: 100%;
+  align-self: flex-start;
 }
 
 .insight-table div b {
